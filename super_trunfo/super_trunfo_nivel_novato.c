@@ -3,8 +3,8 @@
 int main(){
 
     //Dados da cidade1
-    char estado1;
-    char carta1[10];
+    char estado1[100];
+    char carta1[50];
     char cidade1[50];
     int quantidadePopulacao1;
     float areaQuilometrosQuadrado1;
@@ -12,8 +12,8 @@ int main(){
     float numeroPib1;
 
     //Dados da cidade2
-    char estado2;
-    char carta2[10];
+    char estado2[100];
+    char carta2[50];
     char cidade2[50];
     int quantidadePopulacao2;
     float areaQuilometrosQuadrado2;
@@ -25,7 +25,7 @@ int main(){
     printf("\n------------- Informe os dados da carta 01 ------------- \n");
 
     printf("Informe o nome do estado: ");
-    scanf(" %c", &estado1);
+    scanf(" %s", &estado1);
 
     printf("Informe o nome da carta: ");
     scanf("%s", carta1);
@@ -49,7 +49,7 @@ int main(){
     printf("\n------------- Informe os dados da carta 02 -------------\n");
     
     printf("Informe o nome do estado: ");
-    scanf(" %c", &estado2);
+    scanf(" %s", &estado2);
 
     printf("Informe o nome da carta: ");
     scanf("%s", carta2);
@@ -70,7 +70,7 @@ int main(){
     scanf("%f", &numeroPib2);
 
     printf("\n\nCarta 01: \n");
-    printf("Nome do estado: %c\n", estado1);
+    printf("Nome do estado: %s\n", estado1);
     printf("Nome da carta: %s\n", carta1);
     printf("nome da cidade: %s\n", cidade1);
     printf("Quantidade da população: %d\n", quantidadePopulacao1);
@@ -79,7 +79,7 @@ int main(){
     printf("Número do pib: %.2f\n\n", numeroPib1);
 
     printf("\n\nCarta 02: \n");
-    printf("Nome do estado: %c\n", estado2);
+    printf("Nome do estado: %s\n", estado2);
     printf("Nome da carta: %s\n", carta2);
     printf("nome da cidade: %s\n", cidade2);
     printf("Quantidade da população: %d\n", quantidadePopulacao2);
@@ -88,5 +88,7 @@ int main(){
     printf("Número do pib: %.2f\n\n", numeroPib2);
 
     return 0;
+    
 
 }
+
