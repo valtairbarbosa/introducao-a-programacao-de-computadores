@@ -239,5 +239,5 @@ int main(){
             printf("***Parabéns Cidade %d vencedora! ***", rCidadeVencedoraJogo);
         }
     }
-        
+    return 0;   
 }
