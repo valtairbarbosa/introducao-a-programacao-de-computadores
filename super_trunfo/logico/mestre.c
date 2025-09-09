@@ -45,11 +45,11 @@ int main(){
     
     printf("\n---------------- Informe os dados da carta 01 ----------------\n");
 
-    /*printf("Informe o nome do estado: ");
+    printf("Informe o nome do estado: ");
     scanf("%s", estado1);
 
     printf("Informe o nome da carta: ");
-    scanf("%s", carta1);*/
+    scanf("%s", carta1);
 
     printf("Informe o nome da cidade: ");
     scanf("%s", cidade1);
@@ -74,11 +74,11 @@ int main(){
 
     printf("\n---------------- Informe os dados da carta 02 ----------------\n");
     
-    /*printf("Informe o nome do estado: ");
+    printf("Informe o nome do estado: ");
     scanf("%s", estado2);
 
     printf("Informe o nome da carta: ");
-    scanf("%s", carta2);*/
+    scanf("%s", carta2);
 
     printf("Informe o nome da cidade: ");
     scanf("%s", cidade2);
