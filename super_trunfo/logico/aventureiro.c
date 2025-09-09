@@ -162,6 +162,7 @@ int main(){
     if(rCidadeVencedora == 0){
         printf("Empate!");
     }else{
-        printf("***Prabéns Cidade %d vencedora! ***", rCidadeVencedora);
+        printf("***Parabéns Cidade %d vencedora! ***", rCidadeVencedora);
     }
+
 }
